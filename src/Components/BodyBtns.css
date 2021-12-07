@@ -1,0 +1,76 @@
+.container-Btns {
+    background-color: #ffffec;
+}
+
+.container-3-Btns {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+}
+
+.text-initial {
+    margin: 0px;
+    text-align: center;
+    color: #268df7;
+    font-size: 1.5rem;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.Love {
+    height: 100px;
+    width: 20%;
+    background-color: #ff8e3e;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Love:hover {
+    background-color: #eb853d;
+}
+
+.Destiny {
+    height: 100px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    background-color: #2868f9;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Destiny:hover {
+    background-color: #2455c3;
+}
+
+.Career {
+    height: 100px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    background-color: #69c118;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Career:hover {
+    background-color: #59a315;
+}
+
+.p-Started {
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+}
+
+@media(max-width:768px) {
+    .container-3-Btns {
+        width: 90%;
+    }
+    .p-Started{
+        font-size: 1rem;
+    }
+}

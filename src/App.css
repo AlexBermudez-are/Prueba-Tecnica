@@ -1,0 +1,57 @@
+.ref-Logeo {
+  display: flex;
+  color: #737373;
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.ref-Logeo a {
+  color: #737373;
+}
+
+.Empresa-Numero {
+  height: 55px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 3px 1px 1px #dddddd;
+}
+
+.nombre-Empresa {
+  display: flex;
+  align-items: center;
+}
+
+.Text-international {
+  margin: 0;
+  color: #737373;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: 400;
+}
+
+.text-PSYCHICS {
+  margin: 0;
+  color: #ff8e3e;
+}
+
+.Num-Contacto {
+  display: flex;
+  align-items: flex-end;
+}
+
+.texto-Call {
+  margin: 0;
+  color: #737373;
+  font-weight: 500;
+  padding-right: 5%;
+  font-size: 1.5rem;
+}
+
+.numero-Tel {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ff8e3e;
+}
